@@ -18,6 +18,7 @@ git clone https://github.com/mohammadhasanii/Node-IPGeolocation ↗
 
 ## Request
 This will make a POST request to the root endpoint '/' with a JSON body containing the IP address to lookup.
+
 POST /
 
 {
