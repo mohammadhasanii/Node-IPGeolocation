@@ -17,17 +17,13 @@ git clone https://github.com/mohammadhasanii/Node-IPGeolocation ↗
 2-run command "node app.js"
 
 ## Request
-
+This will make a POST request to the root endpoint '/' with a JSON body containing the IP address to lookup.
 POST /
 
-```json
 {
-    Body: 
-
-  {
-    "ip": "8.8.8.8"
-  }
+"ip": "8.8.8.8"
 }
+
 
 ## Response
 
