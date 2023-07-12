@@ -21,11 +21,13 @@ git clone https://github.com/mohammadhasanii/Node-IPGeolocation ↗
 POST /
 
 ```json
-Body: 
+{
+    Body: 
 
   {
     "ip": "8.8.8.8"
   }
+}
 
 ## Response
 
