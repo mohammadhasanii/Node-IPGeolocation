@@ -2,24 +2,30 @@
 
 IP Info API is a web service that provides you with information about the details of an IP address by receiving the IP address through a POST request to the / route. 
 
+
+![Image description](https://www.ipxo.com/app/uploads/2021/11/Feature-Image.jpg)
+
+
 ## Getting Started
 
 To use this API, first, clone the repository:
-git clone https://github.com/example/ip-info-api.git ↗
+git clone https://github.com/mohammadhasanii/Node-IPGeolocation ↗
 
 
 1-npm install
 
 2-run command "node app.js"
 
+## Request
+
 POST /
 
-Body:
+```json
+Body: 
 
   {
-    "ip": "8.8.8.8" 
+    "ip": "8.8.8.8"
   }
-
 
 ## Response
 
