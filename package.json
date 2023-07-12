@@ -1,0 +1,19 @@
+{
+  "name": "node_ipgeolocation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": {
+    "email": "m789219@gmail.com",
+    "name": "Mohammad Hasani",
+    "url": "https://github.com/mohammadhasanii"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
